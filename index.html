@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+body {
+    background-color: #242424;
+}
+
+.title {
+    text-align:center;
+    color: #A48F20;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.results-link {
+    margin-left: 40%;
+    color: #A48F20;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.round-select-form {
+    text-align:center;
+    color: #A48F20;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.start-btn {
+    text-align:center;
+    background-color: #A48F20;
+    color: #242424;
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 10%;
+    border: 1px solid #A48F20;
+    width: 10%;
+    height: 50px
+}
+
+.start-btn:hover {
+    width: 12%;
+    cursor: pointer
+}
+
+
+</style>
+
+<h1 class="title">Welcome to Your Boxing App</h1>
+
+<a href="ResultsScreen.php" class="results-link">Click Here to View Results</a>
+
+<body>
+    <form class="round-select-form" action="KickboxingGameScreen.php" method="post">
+        <label id="info">Input the Number of Rounds and Click Start Button</label><br> 
+        <input id=noOfRounds name="noOfRounds" value=" " /><br>
+        <button id="stopSession" type="submit" name="save" class="start-btn" >Start</button> 
+</body>
+
+</html>
