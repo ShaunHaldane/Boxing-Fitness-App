@@ -50,4 +50,4 @@ Picture 6: Me Using the Equipment
 
 ### Conclusion
 
-I have built this product to help me get boxing fit again. Only time will tell if I stick to a good routine of using this product to measure my fitness. I am going to update this post at Christmas 2021 to show my results of using this product for 8 weeks.
+I have built this product to help me get boxing fit again. Only time will tell if I stick to a good routine of using this product to measure my fitness.
